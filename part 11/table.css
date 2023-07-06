@@ -1,0 +1,11 @@
+table,td,th
+{
+border:2px;
+border-color: black;
+border-style:ridge;
+width:1000px;
+text-align:left;
+border-collapse:collapse;
+padding:10px;
+
+}

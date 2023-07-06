@@ -1,0 +1,44 @@
+ul
+{
+  margin:0;
+  padding:0;
+   background:cyan;
+   overflow:hidden;
+}
+ul li
+{
+  float:left;
+  list-style-type: none;
+}
+.dropdown-content
+{
+  background: yellow;
+  display: none;
+   position: absolute;
+   min-width:50px;
+}
+ul li a:hover
+{
+background: red;
+}
+.dropdown-content a
+{
+ display:block;
+ color: blue;
+}
+.dropdown-content a:hover
+{
+  background: green;
+}
+.dropdown:hover .dropdown-content
+{
+  display:block;
+}
+ul li a
+{
+  color: white;
+  text-decoration: none;
+  text-transform:capitalize;
+  padding: 12px 10px;
+  display:inline-block;
+}

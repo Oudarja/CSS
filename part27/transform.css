@@ -1,0 +1,25 @@
+body
+{
+  margin:0;
+  padding:0;
+}
+.box
+{
+  width:100px;
+   height:100px;
+  background:red;
+  border:2px solid black;
+  padding: 10px;
+  font-size: 20px;
+  /* for transform box 100px right and 200px down*/
+  /*transform:translate(100px,200px);*/
+
+  /* for changing the size */
+  /*transform: scale(2)*/
+  /* it means both height and width getting large 2's multiple'*/
+  /* transformx(2) only increase width*/
+  /* transformy(2) only increase height*/
+  margin:50px auto;
+  /*transform:skewY(-45deg); for getting certain arc in case of box*/
+   transform: rotate(30deg);
+}

@@ -1,0 +1,16 @@
+.box
+{
+  width:100px;
+  height:100px;
+  background:red;
+  transition-duration:1s;
+  transition-delay: 0.5s;
+  transition-timing-function: ease-out;
+}
+.box:hover
+{
+   width:500px;
+   height:500px;
+   transform:rotate(360deg);
+
+}

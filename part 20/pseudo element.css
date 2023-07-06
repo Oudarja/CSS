@@ -1,0 +1,9 @@
+p:first-line
+{
+  color: red;
+  font-size: 100px;
+}
+h2:before
+{
+  content:url(star.png);
+}

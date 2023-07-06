@@ -1,0 +1,12 @@
+p{
+
+   border: solid;
+   border-color: black;
+   border-radius: 1px;
+   outline-width: 3px;
+   outline-style: dashed;
+   outline-color: red;
+   outline-offset:10px;
+
+
+}

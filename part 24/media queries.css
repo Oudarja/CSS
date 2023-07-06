@@ -1,0 +1,45 @@
+.box1
+{
+  width:300px;
+  height:200px;
+  background-color: red;
+}
+.box2
+{
+  width:300px;
+  height:200px;
+  background-color: red;
+}
+.box3
+{
+  width:300px;
+  height:200px;
+  background-color: red;
+}
+
+@media screen and (max-width:480px)
+{
+  .box1
+  {
+    background-color: green;
+  }
+}
+@media screen and (min-width:480px){
+  .box2
+  {
+    background-color: green;
+  }
+}
+@media screen and (min-width:480px) and (max-width:900px){
+  .box3
+  {
+    background-color: green;
+  }
+}
+@media screen and (min-width:480px)
+{
+h1
+{
+font-size:15px;
+}
+}

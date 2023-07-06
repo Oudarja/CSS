@@ -1,0 +1,35 @@
+.icons
+{
+  overflow:hidden;
+}
+.icons ul
+{
+  margin: 0;
+  padding:0;
+}
+.icons ul li
+{
+  list-style-type: none;
+  float: left;
+  margin:5px;
+}
+.icons ul li :last-child
+{
+  margin-right: 0;
+}
+.icons ul li a
+{
+  background-image: url('icons.png');
+  width:81px;
+  height: 81px;
+  background-repeat: no-repeat;
+  background-position:0px 0px;
+  display: inline-block;
+  border: 2px solid red;
+  border-radius:50%;
+  transition: 1s;
+}
+.icons ul li:hover a
+{
+  background-position:0px -84px;
+}

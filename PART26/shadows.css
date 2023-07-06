@@ -1,0 +1,41 @@
+h2
+{
+  font-size: 100px;
+  font-style: italic;
+  text-align: center;
+   text-shadow: -7px 7px 5px red;
+}
+
+h3
+{
+  font-size: 100px;
+  font-style: italic;
+  text-align: center;
+   text-shadow: -7px 0px red,7px 0px yellow,0px -7px cyan,0px 7px blue;
+}
+.tanmoy
+{
+  width:300px;
+  height: 500px;
+  text-align: center;
+  margin:auto;
+  border: 1px solid black;
+}
+.tanmoy img{
+  width:100%;
+  height: 100%;
+}
+.tanmoy h4
+{
+  font-size: 20px;
+  text-transform: capitalize;
+  margin:0;
+}
+.container
+{
+  padding: 10px;
+}
+.tanmoy:hover
+{
+box-shadow: 10px 10px 10px red ,-10px 10px 10px yellow;
+}

@@ -1,0 +1,18 @@
+a{
+  text-decoration: none;
+  color: cyan;
+  font-size: 50px;
+  background-color: red;
+  font-family: tahoma;
+  padding:10px 20px;
+}
+a:hover
+{
+  color: red;
+  background-color: cyan;
+}
+a:active
+{
+ color:pink;
+ background-color:blue;
+}

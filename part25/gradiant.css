@@ -1,0 +1,18 @@
+.box1
+{
+  width:300px;
+  height:200px;
+  background:linear-gradient(to left top,red,green,yellow);
+}
+.box2
+{
+  width:300px;
+  height:200px;
+  background:linear-gradient(rgba(155, 89, 182,0),rgba(155, 89, 182,1.0));
+}
+.box3
+{
+  width:300px;
+  height:200px;
+  background:radial-gradient(red,yellow,green);
+}

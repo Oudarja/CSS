@@ -1,0 +1,9 @@
+.tanmoy
+{
+  width:200px;
+  height: 200px;
+  border: 1px;
+  border-color:green;
+  border-style: solid;
+  overflow:auto;
+}
